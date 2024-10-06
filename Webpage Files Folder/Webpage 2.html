@@ -1,0 +1,150 @@
+<h5>  بسم الله الرحمن الرحيم <br/>  </h5>
+<!DOCTYPE html>
+<html>
+   <head> 
+      
+       <p style="text-align: center;"> Assalamu 'alaykumu wa rahmotu llahi wa barakatuh ! </p>
+      <meta charset="utf-8"/>
+      <title> Webpage 2. </title>
+      <link rel="stylesheet" href="CSS3_External_Style_Sheet_W2.css" />
+
+   </head>
+   <body>
+
+      <h1> BOOM !!! This is the Second Webpage ! </h1> <br/>
+
+   <p style="font-size: x-large;" style="text-align:center ;"> Need To View The Homepage ? Tap Here 
+      <span class="link1">
+         <a id="linkText" href="index.html"> Homepage </a> 
+      </span>
+   </p>
+      <br/><br/><br/><br/><br/>
+
+
+      17. Intro to css: css(cascade style sheet) is what is used to make a website look pretty, it is basically used to style a webpage i.e 
+         change colour of text and add background colour to text. it can be done using three ways- inline styling (the attribute is put 
+         within the opening tag), using internal style sheet (where a whole new tag is used, with "attributes", "values" and this time with
+         something called "selector", which is what is used in CSS3 style sheet to style the content within it. The selector could be a h1, 
+         h2, h3...h6 tag or it could be ul or ol or li tag, it could be any tag, but! these tags will not be within equality brackets or any
+         brackets at all, rather, a curly bracket will be on the right of the tag. so, the attributes and values are placed within the curly
+         brackets) or external style sheet(where a whole new CSS3 file is created and is then linked to the Webpage(s) to be styled. The 
+         styling is then done by using selector tags).
+         Here are examples below for inline styling: 
+         <p style="color:blue"> I'm blue </p>
+         <p style="color:brown"> I'm brown </p>
+         <p style="color:cyan"> I'm cyan </p>
+         <p style="color:gold"> I'm gold </p>
+         <p style="color:green"> I'm green </p>
+         <p style="color:lime"> I'm lime </p>
+         <p style="color:orange"> I'm orange </p>
+         <p style="color:pink"> I'm pink </p>
+         <p style="color:purple"> I'm purple </p>
+         <p style="color:red"> I'm red </p>
+         <p style="color:silver"> I'm silver </p>
+         <p style="color:violet"> I'm violet </p>
+         <p style="color:yellow"> I'm yellow </p>
+         <h3>Here is an example of using internal style sheet:</h3>
+         <style type="text/css"> 
+         h3{
+             color:green; background-color:rgba(210, 105, 30, 0.541) ;;
+           }
+         </style>
+         <h3> 
+            Note that the "selector" used in internal style sheet is used to select/identify the text to style, to do that, the text 
+            to be styled has to be within a tag, the text of the tag is what is then used as a selector. And as a result of this 
+            anywhere, I mean ANYWHERE, this same tag is used within the html document also gets styled. check "h3" tag just above this text
+            to understand better. 
+         </h3>
+         <!-- the selected tag to be styled also automatically break the line, i.e automatically adds paragraph -->
+      18. External Style Sheet: is just like using inline styling and internal styling sheet. External styling sheet as the name implies is
+         used for styling a html document or several links to a homepage as compared to the two above, externally, i.e it is saved as a 
+         different file on its own and as such, a link to it is placed within the head tag. Within the link is the relationship attribute
+         "rel" and the html reference "href" to where it is saved. And it also makes use of the selector like internal styling.</br>
+         Example of application of CSS3 External styling sheet to HTML using selectors are as follows:<br/>
+         List of Fruits
+         <ol>
+            <li> Tamur(Date fruit) </li>
+            <li> Zabeeb(Raisin) </li>
+            <li> Tin(Fig) </li>
+            <li> Zaytun(olive) </li>
+            <li> Banana </li>
+         </ol>
+         <ul>
+            <li> Pomegranate </li>
+            <li> Peach </li>
+            <li> Grapes </li>
+            <li> Mango </li>
+            <li> kiwi </li>
+         </ul>
+         <h2> Hey you ! Yes you, Guess what, I'm styled using CSS3 External style sheet </h2>
+      20. CSS Comment: The tag to be used for CSS3 comment is "/* comment will be entered here */". see CSS3_Exeternal_Style_Sheet_W2.css<br/>
+      21. Box model: consists of <strong> four </strong> different parts. These are content, padding, border and margine (styling is done 
+         in CSS3_External_Style_Sheet); <br/>
+         i. Content: refers to the actual text seen on a websheet. There is no styling for this, its just text, simple and straight.<br/>
+         ii. Padding: refers to the gap between the text and the border. This can be illustrated and better understood by giving a text a 
+         background colour. See texts below having background-color and exhibiting adjusted padding, see styling in CSS3_External_Style_Sheet_W2.css
+            <h1> Masha'a llah, i have an adjusted padding. </h1> 
+            <h4> Alhamdu lilah, am also having an adjusted padding. </h4>
+            <h6> Ignorance is a disease, seek beneficial knowledge and apply it with wisdom seeking Allah's guidance, mercy and reward therein
+            </h6>
+         iii. Border: as the name implies is the outline or edges of the padding of text and can also be styled itself using the border-width,
+         border-style and border-color attributes and others and each has different values. see CSS3_External_Style_Sheet_W2.css for styling.
+         Note, border styling is done above together with the padding styling. Like others, theres also a shortcut for this, instead of typing 
+         each attribute e.g.border-width, border-style, in full, just type border followed by ":" then place the values of the attributes you
+         want directly and close it off with ";". Theres also an option to style each side of the border individually and you can even choose
+         to style just top and bottom and leave left an right and vice versal, or just top or just right e.t.c.<br/>
+         iv. Margin: This is the gap between the text(including its padding and border) and the body of a web browser and other text, usually
+         white in colour. it also follows the existing protocol as regards its styling.<br/>   
+      22. div and span tags: basically selector-like in nature to be styled in CSS3_External_Style_Sheet. a div tag spans the whole line even if it is only a single word that is placed within its tag and nothing else can be on the same line with it. as for "span" tag, it is more flexible, doesn't take up the whole line and can be adjusted to user's taste using different selectors (Class or IDs) and different attributes (margin, background-color, font...)
+         <div>
+            <p>The Billion! Naira!! Question!!! What is the range of values of 2n + 1 given that n could be any natural number ? </p> 
+            <p>Your time starts now!!! <span>3 2 1.</span> Time's up!!! </p>
+         </div>
+      23. Background-images: Self Explanatory...<br/>
+      24. Class: Its like an attribute placed within the opening tag of a tag. this attribute is assigned any name of your choice using the '=''
+         operator, so now it is this name that will be used in CSS3_External_Style_Sheet to style that specific tag or any other tag having the
+         same class name. Now in the CSS3_External_Style_Sheet, to select a specific class to style, place a period or fullstop first, then the
+         name of the class to style.<br/>
+          <p class="c1"> Class name selection styling tag is more precise </p> 
+          <p class="Peace"> Peace Peace Peace, oh Islam is my Peace, how sweet is Islam ? Allahuma inni asaluka 'afuw wal'aafiyah fee Deen. </p>
+          <p class="Belief"> Do not say "we have believed" for faith hasn't been instilled in your hearts, rather say we have submitted. Oh 
+             you who declare I'm a Muslim and oh you who believe, be not an illiterate of your own Deen and be not like "they" who barely know
+             anything of their Deen  and are misled and follow the wrong path because they do not seek knowledge and are Ignorant of their 
+             Deen, and they do not seek the truth. they follow nothing but falsehood and their own desires, they do not take their Deen
+             seriously, let him who will take heed, to Him is the inevitable return. Qur'an 78:40 Indeed, We have warned you of a near 
+             punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, "Oh, I wish that I were
+             dust!" </p>
+      25. IDs: similar to class above in function. however while styling in CSS3_External_Style_Sheet, when selecting the ID name, instead of starting with a period, an hash tag is used followed by the ID name then style. a difference between "IDs" and "Classes" I have noticed while working is that some features or attributes works in one and not the other, like margin works in "Class" but not in "IDs". 
+         <li class="red">Warning!!!</li> Do not use IDs attributive styling name to style more than one element, assign one ID name to one 
+         element only, because if javascript is used on it later on, it'll confuse it.
+         <p id="wah"> Riddle me this ??? It rises from the east and sets on the west and will one day rise from the west and set on the east 
+            and this signals the close of the door of repentance. What is it ? </p>   
+         <p id="ith"> This is the second ID paragraph to be styled. </p>
+         <p id="tha"> Look before you leap, look to the far right. </p>  
+                                                               END OF PART TWO...
+         
+   <h2> Dash Into Other Webpages From Here... </h2> <br/> <br/> <br/>
+
+      <span class="link3">
+         <a id="linkText" href="Webpage 3.html"> Webpage 3 </a>
+      </span>
+
+      <span class="link4">
+         <a id="linkText" href="Webpage 4.html"> Webpage 4 </a>
+      </span>
+
+      <span class="link5">
+         <a id="linkText" href="Webpage 5.html"> Webpage 5 </a>
+      </span>
+
+      <span class="link6">
+         <a id="linkText" href="Webpage 6.html"> Webpage 6 </a>
+      </span>
+      <br/><br/><br/><br/><br/>
+
+      <footer class="page_footer"><!-- Displays footer, usually Copywrite -->
+         Made With Expertise Somewhere On Earth &copy; CopyRight Cumulus.Inc
+     </footer>
+         
+   </body>
+</html>

@@ -1,0 +1,185 @@
+
+
+ ul{
+    color:red;
+   }
+
+h2{
+    background-color: skyblue; 
+    font: arial bold italic 24px ;
+  }
+
+ol{
+    font-family: Didot ;
+    font-size: large;
+    font-weight: 500 ;
+  }
+
+h5{ 
+    text-align: center;
+  }
+
+h1{ 
+   background-color: gold;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 285px; /* the padding seems to extend to the end of the line of the text and is not uniformly surrounding the text. For this
+   reason, note that the padding-left value has been adjusted to place the text at the center of the line to make it look uniform. Also, with
+   this knowlege, the padding of the 1st text at the top of the displayed websheet has been adjusted. */
+   border: 8px dashed rgb(236, 234, 250);
+   border-radius: 100px;/* used to rounden the left and right side of the border */
+   margin: 50px;
+  }
+
+h4{ 
+    background-color: greenyellow;
+    padding: 50px 50px; /* The assigning of the value of padding has a shortcut and is in the order: the 1st 50px stands for top and bottom 
+    padding and 2nd 50px stands for left and right padding, alternatively, the value of the respective padding can be placed in the following
+    order like that of a box starting from: top-right-bottom-left. */
+    border-width: 8px;
+    border-style: double;
+    border-color: green;
+    margin: 50px 100px; /* top-bottom left-right */
+  }
+
+h6{
+    padding: 20px 20px 20px 280px; /* top right bottom left */
+    border-top: 5px skyblue dashed;
+    border-right: 5px gold dotted;
+    border-bottom: 5px rgb(235, 41, 235) solid;
+    border-left: unset; /* left unstyled intentionally */
+    margin: 50px 15px 20px 100px; /* top right bottom left */
+  } 
+
+    body{margin: 12px; padding: 0px;} /* take note of the application of this. To be used if you want the text(incuding the padding and border
+    ) to be flush with the side of your web browser. */
+
+/* here is an example of a comment in CSS3 external style sheet, come to think of it, it seems all comment are displayed in green by 
+default both in html and CSS3 and perhaps elsewhere. */
+
+div{
+    border: 5px ridge rgb(255, 196, 0);  
+    background-color: rgb(248, 211, 178);
+    width: 800px;/* represents the lenght of padding to the right, hence prevents the padding from reaching the end of the line */
+   } /* The display of the styling of the div tag doesn't add paragraph to is surroundings, and seems to have an all out margin of 0px */ 
+
+span{
+     color: orangered;
+     background-color: rgb(57, 236, 33);
+    } 
+
+body{
+     background-color: rgb(236, 234, 250);
+     background-image: url(Dua..png) ;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+   } 
+
+.c1{
+    color: rgb(24, 148, 24);
+    text-align: center;
+    background-color: yellowgreen;
+   } /* quite a number of attributes or styling can be added to any selection tag for styling in CSS3_External_Style_Sheet */
+
+.Peace{
+  color: green;
+}
+
+.belief{
+  color: red;
+}
+
+
+.red{
+  color: red;
+}
+
+#wah{
+  color: blue;
+}
+
+#ith{
+  color: orange;
+  text-align: end;
+}
+
+#tha{
+  color: indigo;
+}
+
+/* styling of links to other websites */
+.link1{
+  
+  border-radius: 50px;
+  background-color: red;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-right: 17;
+  margin-left: 27;
+  
+}
+
+#linkText{
+  font-size:x-large;
+  color: black;
+  text-decoration-line:none ;
+}
+
+.link3{
+  
+  border-radius: 50px;
+  background-color: yellow;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin: 49;
+  
+}
+
+.link4{
+  
+  border-radius: 50px;
+  background-color: green;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin: 49;
+  
+}
+
+.link5{
+  
+  border-radius: 50px;
+  background-color: indigo;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin: 49;
+  
+}
+
+.link6{
+  
+  border-radius: 50px;
+  background-color: violet;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin: 49;
+  
+}
+
+/* footer styling */
+.page_footer{
+  text-align: center;
+}
+
+                                                /* End of part two... */

@@ -1,0 +1,202 @@
+h5{ 
+    text-align: center;
+  }
+
+h4:first-line/* This affects the first line only,and surprisingly, if the width of a browser is adjusted, the styling is also adjusted 
+            automatically to style the first line only */{
+    color: chocolate;
+    font-size: 19px;
+    font-family: cursive;
+  }
+h2:first-letter{
+    color: cyan;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+#al-abween p:first-child/* 'child' here refers to tag */{
+   color: olive;
+   background: yellow;
+}
+
+#al-abween p:last-child{
+   color: yellow;
+   background: olive;
+}
+    
+#al-abween p:before{
+   content:"i am before";
+   color: greenyellow
+}
+
+#al-abween p:after{
+   content: "i am after";
+   background-color: greenyellow;
+   color: white;  
+    }
+
+    #al-abween p:nth-child(even){
+   background-color: rgb(226, 255, 255);
+   font-family: cursive;    
+    }
+
+.high{ /* Note: this is the default appearance of the link */
+      color: green;
+      text-decoration: none;
+      font-family: cursive;
+      /* Beware of inheritance of attributes from the top to bottom, see 'font-family' */
+ }
+
+ .high:hover{
+       background-color: black;
+       color: white;/* Note: Google Chrome ignores this pricise attribute, hmmm strange... */
+       font-family: unset;
+    }
+
+    .high:active{
+       color: white;
+    }
+
+    .high:visited{
+       color: rgb(179, 245, 114);
+    }
+
+    ul{
+       list-style-type: circle;
+       list-style-position: inside;
+    }
+h3{
+    padding-left: 200px;
+  }
+
+  ol{
+   list-style-image: url(Tick..png);
+   list-style-position: outside; /* This is the default setting for list-style-position */
+}
+
+.grade{
+        background-color: lime;
+        text-align: center;
+        border-radius: 5px;
+        padding: 200px 200px;
+        background-image: linear-gradient( to right, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow
+        , green, blue, indigo, violet,red, orange, yellow, green, blue, indigo, violet);
+      }
+.image0{
+   float: left;
+}
+
+.image1{
+   float: right;
+}
+
+.clear{
+   clear: right; /* Explore more attribute values */
+}
+
+#b1{
+   float: left;
+   background-color: red;
+   height: 300;
+   width: 300;
+   color: lime;
+   text-align: left;
+   margin: 0 30;
+}
+
+#b2{
+   float: left;
+   background-color: lime;
+   height: unset;
+   width: unset;
+   color: red;
+   text-align: center;
+   padding: 141 255;
+}
+
+#b3{
+   float: right;
+   background-color: yellow;
+   height: 300;
+   width: 300;
+   color: green;
+   text-align: right;
+}
+
+#greetings{
+   text-align: center;
+}
+
+/* styling of links to other websites */
+.link2{
+    
+   border-radius: 50px;
+   background-color: orange;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   margin-right: 17;
+   margin-left: 27;
+   
+}
+
+#linkText{
+   font-size:x-large;
+   color: black;
+   text-decoration-line: none;
+}
+
+.link1{
+  
+   border-radius: 50px;
+   background-color: red;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   margin-right: 17;
+   margin-left: 27;
+   
+ }
+
+.link4{
+   
+   border-radius: 50px;
+   background-color: green;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   margin: 17;
+   
+}
+
+.link5{
+   
+   border-radius: 50px;
+   background-color: indigo;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   margin: 17;
+   
+}
+
+.link6{
+   
+   border-radius: 50px;
+   background-color: violet;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   margin: 17;
+   
+}
+
+/* footer styling */
+.page_footer{
+   text-align: center;
+}

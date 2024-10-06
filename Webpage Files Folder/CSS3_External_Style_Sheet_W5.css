@@ -1,0 +1,104 @@
+h5{ 
+    text-align: center;
+  }
+
+#greetings{
+    text-align: center;
+ }
+
+.table2{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(2n){ /* placing a "space" between "tr" and ":nth-child(2n)" make it affect the table vertically, hmmm strange... */
+    background-color: rgb(224, 224, 255);
+}
+
+thead{
+    background-color: rgb(193, 252, 135);
+}
+
+tfoot{
+    text-align: center;
+    background-color: rgb(224, 189, 100);
+}
+
+/* styling of links to other websites */
+.link2{
+    
+    border-radius: 50px;
+    background-color: orange;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 17;
+    margin-left: 27;
+    
+}
+
+#linkText{
+    font-size:x-large;
+    color: black;
+    text-decoration-line: none;
+}
+
+.link3{
+    
+    border-radius: 50px;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+.link4{
+    
+    border-radius: 50px;
+    background-color: green;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+.link1{
+  
+    border-radius: 50px;
+    background-color: red;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 17;
+    margin-left: 27;
+    
+  }
+
+.link6{
+    
+    border-radius: 50px;
+    background-color: violet;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+/* footer styling */
+.page_footer{
+    text-align: center;
+}

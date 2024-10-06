@@ -1,0 +1,131 @@
+<h5>  بسم الله الرحمن الرحيم <br/>  </h5>
+<!DOCTYPE html>
+<html>
+   <head>
+      1.  Assalamu alaykum wa rahmotu llah wa barakatuh ! (Peace be upon you, and the mercy of Allah, and blessings)<br/> 
+      
+             <meta charset="utf-8"/>
+             <title> Homepage. </title>
+             <link rel="stylesheet" href="CSS3_External_Style_Sheet_W1.css"/>
+
+   </head> 
+   <body> 
+   
+      3. Here's the body of the web sheet.<br/> 
+      4. line breaker tag in the line above just after this "sheet.", it serves as the enter key on the keyboard in html, cause in html, wide
+        spaces are ignored so even if alot of space is placed between two text or the enter key is used while writing the code, it displays it
+        in the web browser as a single space. 
+
+         <p> 5. Paragraph tag, used to add paragraphs. </p>
+
+         <h1> 6. This is the Biggest header. </h1>
+         <h2> Second to the biggest header. </h2>
+         <h3> Third to the biggest header. </h3>
+         <h4> Third to the smallest header. Same size as regular text. </h4>
+         <h5> Second to the smallest header. </h5>
+         <h6> This is the smallest header. </h6>
+
+      7. To bolden text(s), use the following tag; <strong> I'm as Bold as a lion </strong> <br/>
+      8. To italicize a text(s), use the following tag; <em> I'm in itallic text style, does that mean I can be traced from italy. </em> <br/>
+         <p> 9. The horizontal rule tag: is a line used to clearly differentiate two paragraphs and more...  Here is the first Paragraph </p>
+         <hr/>
+         <p> And here is the Second Paragraph for the sake of emphasis, the gap and line above is as a result of the "hr tag" </p>
+      10. using comment is a way to tell the browser to ignore text that is meant for only the web developer to see, here is an example below; 
+          <br/>
+          <!-- double check or proof read codes when done --> 
+      11. list items are for listing of info and are of two types, unordered and ordered. unordered list tag "ul" uses bullet point for listing
+         while ordered list tag "ol" use numbers. within these tags, their is the list item tag "li" common to both without which there will be
+         no bullet point or numbering, e.g:
+         <ul>
+            <li> Date fruit </li>
+            <li> Banana </li>
+            <li> Orange </li>
+            <li> Tangerine </li>
+            <li> Watermelon </li>
+            <li> Apple </li>
+         </ul>
+         <ol>
+            <li> Yam </li>
+            <li> Potato </li>
+            <li> Plantain </li>
+            <li> Carrots </li>
+            <li> Beans </li>
+            <li> Rice </li>
+         </ol>
+      12. Link to another page using the following tag, and this kind  of tag contains what is called an attribute in the opening tag for the
+         browser to know the location of the page to link to; click <a href="Webpage 2.html" > here </a> to dash into the Second Webpage
+         that has been created to praticalize this.
+         A link to a whole new website can be created the same way, just that the attribute is going to be 
+         <strong> the full URL of the website </strong>. e.g; here's a link to google website <a href="https://www.google.com"> Google </a> <br/>
+      13. Images: use the following tag and attribute and use the full name of the image as the value of the src attribute, src means
+         source/directory of the image to be displayed, note that the image to be displayed has to be saved in the same folder as the Webpage.<br/> 
+         <img src="Floating Leaf on H2O..jpg" alt="Floating Leaf on H2O" width="736" height="920" /> <br/>
+         The alt attribute places text, usually the name of the image, in place of the image to be displayed if the browser can't find the image,
+         perhaps due to incorrect spelling of the image name or the img is not saved in the same folder as the Webpage, so in short, it is 
+         displayed <strong> only </strong> if the img is missing. <br/>
+         The width and height attribute as the name implies, are used for resizing the img, and if the image is missing, these attribute gives
+         the perimeter which the img would've occupied, and this makes the webpage organized and not funny and out of place, e.g; <br/>
+         <img src="Floatin Leaf on H2O..jpg" alt="Floating Leaf on H2O" width="736" height="920" /> <br/>
+         <!-- perimeter creation failed, try and find out why. RE: it actually works just not on google chrome browser. -->
+      14. Directory Structure is used to get the locale of the img to be displayed if the img is not in the same folder as the Webpage, e.g;<br/> 
+         <img src="../Dir Structure back folder test./Of what was Man made..jpg" alt="Man was made from earth." width="750" height="514"/> <br/> 
+         The ".." means go back one folder and the "/" is used to seperate everything <br/>
+         <img src="Dir Structure forward folder test./Experience..jpg" alt="Knowledge." /> <br/>
+         The value of the above attribute needs no extra character to tell the browser what to do, just regular directory path.<br/>
+         Note: the browser takes the folder the webpage is saved in as the origin of directory, so any img not directly in the same folder with
+         the webpage begins its directory path from there, either backward or forward. <br/>
+      15. Audio: In order to add audio to webpage, use the following tags. <br/> 
+         The <strong> control attribute </strong> is used to control the audio files as the name implies, pause, play, etc. without it, there would be no control of the audio. And guess what, if the control attribute is 
+         absent and the autoplay attribute is present, the audio starts playing the instant the webpage finishes loading and there will be
+         no way to stop it till it finishes playing, and  if the loop attribute is also present, it will restart after it finishes over and
+         over and again. <br/>
+         The <strong> autoplay and loop attributes </strong> are self explanatory. Also, the "type attribute" within the "source tag" tells the
+         browser the kind of file it is 
+         <!-- the autoplay attribute is removed because its annoying while reloading the page to test the codes --> <br/>
+            <audio controls loop > 
+                 <!-- note that the autoplay attribute does'nt work on google chrome -->
+                 <source src="001 Al-Fatihah..mp3" type="audio/mpeg" />
+                  If you can see this, kindly update your browser in order to be able to view the audio files.
+             </audio> <br/>
+      16. Video:  to add videos, just follow the usual procedure... <br/>
+             <video width="640" height="360" controls loop >
+               <source src="Google Self-Driving Bike..mp4 " type="video/mp4" />
+               If you can see this, kindly update your browser in order to be able to view the audio files.
+             </video> <br/>
+     
+      19. Font Properties: used for font configuration in css external style sheet. Note that there are only four different font properties.
+         The attributes such as: "font-family", "font-style", "font-weight" and "font-size" can be written out and used individually with 
+         their respective values OR all can be used using the attribute "font" then the different values for the above attributes can just
+         be placed right in front of it seperated by a space.</br> 
+         <!-- CREATE NEW HTML FILE FOR CSS3 EXTERNAL STYLING SHEET. RE: Done, and 2nd webpage was used instead  -->
+                                                        END OF PART ONE...<br/>
+
+         
+      <h2> Dash Into Other Webpages From Here... </h2> <br/> <br/> <br/>
+      <span class="link2">
+         <a id="linkText" href="Webpage 2.html"> Webpage 2 </a> 
+      </span>
+
+      <span class="link3">
+         <a id="linkText" href="Webpage 3.html"> Webpage 3 </a>
+      </span>
+
+      <span class="link4">
+         <a id="linkText" href="Webpage 4.html"> Webpage 4 </a>
+      </span>
+
+      <span class="link5">
+         <a id="linkText" href="Webpage 5.html"> Webpage 5 </a>
+      </span>
+
+      <span class="link6">
+         <a id="linkText" href="Webpage 6.html"> Webpage 6 </a>
+      </span>
+      <br/><br/><br/><br/><br/>
+
+      <footer class="page_footer"><!-- Displays footer, usually Copywrite -->
+         Made With Expertise Somewhere On Earth &copy; CopyRight Cumulus.Inc
+     </footer>
+
+   </body>
+</html>

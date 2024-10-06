@@ -1,0 +1,96 @@
+h5{ 
+    text-align: center;
+  }
+
+#greetings{
+  
+    text-align: center;
+ }
+
+ .User_Data label{
+     float: left;
+     width: 112px;
+ }
+
+ .User_Data{
+     width: 450px;
+     background-color: palegreen;
+ }
+
+ .head {
+     font-weight: bold;
+ }
+
+ /* styling of links to other websites */
+.link2{
+    
+    border-radius: 50px;
+    background-color: orange;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 17;
+    margin-left: 27;
+    
+}
+
+#linkText{
+    font-size:x-large;
+    color: black;
+    text-decoration-line: none;
+}
+
+.link3{
+    
+    border-radius: 50px;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+.link4{
+    
+    border-radius: 50px;
+    background-color: green;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+.link5{
+    
+    border-radius: 50px;
+    background-color: indigo;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+.link1{
+  
+    border-radius: 50px;
+    background-color: red;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 17;
+    margin-left: 27;
+    
+  }
+
+/* footer styling */
+.page_footer{
+    text-align: center;
+}

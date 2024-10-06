@@ -1,0 +1,144 @@
+h5{ 
+    text-align: center;
+  }
+
+  #greetings{
+      text-align: center;
+  }
+ 
+*{
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+header,nav,section,article,aside,footer{ /* Multiple Selection */
+    display: block;
+}
+
+.envelope{
+    width: unset;
+    margin: 0px auto;
+    border: solid limegreen;
+}
+
+.logo{
+     float: left;
+}
+
+.head_nav{
+    float: left;
+}
+
+.links li{ /* selects all the "li" tags under the class "links" */
+    float: left;
+    padding:10px 20px ;
+}
+
+.clearing{
+    clear: both;
+}
+
+.left_side{
+    float: left;
+    margin: unset;
+}
+
+.right_side{
+    float: left;
+    width: 874px;
+}
+
+.page_footer{
+    clear:  both ;
+    text-align: center;
+}
+
+.left_side div{
+    border: dotted orange;
+}
+
+.right_side article{
+    border: dotted blue;
+    clear: unset;
+}
+
+/* styling of links to other websites */
+.link2{
+    
+    border-radius: 50px;
+    background-color: orange;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 17;
+    margin-left: 27;
+    
+}
+
+#linkText{
+    font-size:x-large;
+    color: black;
+    text-decoration-line: none;
+}
+
+.link3{
+    
+    border-radius: 50px;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17;
+    
+}
+
+.link1{
+  
+    border-radius: 50px;
+    background-color: red;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 17;
+    margin-left: 27;
+    
+  }
+
+.link5{
+    
+    border-radius: 50px;
+    background-color: indigo;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17px;
+    
+}
+
+.link6{
+    
+    border-radius: 50px;
+    background-color: violet;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: 17px;
+    
+}
+
+.bottom{
+    border: dotted green;
+    clear: both;
+    
+}
+
+/* footer styling */
+.page_footer{
+    text-align: center;
+}

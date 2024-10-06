@@ -1,0 +1,184 @@
+<h5>  بسم الله الرحمن الرحيم  </h5>
+<!DOCTYPE html>
+<html>
+   <head>
+      
+       <div id="greetings"> Assalamu 'alaykumu wa rahmotu llahi wa barakatuh ! </div>
+      <meta charset="utf-8"/>
+      <title> Webpage 6. </title>
+      <link rel="stylesheet" href="CSS3_External_Style_Sheet_W6.css" />
+   </head>
+   <body>
+      <h2> The concluding part... </h2>
+      36. Use the "form" tag to create forms to be filled with a internet surfer's info. Data like name,  contacts and even Masked passwords 
+         could be collected using this tag, see below. It should be noted that info from the consumer can collected through "form" tag. The 
+         form can be manipulated using various attributes <br/><br/>
+       <form action="" method="get">
+         Name:<input type="text" name="Name of User" maxlength="unset" size="50" value="input name here"/> <br/>
+         Password:<input type="password" name="identity authentication" maxlength="unset" size="35"/> <br/>
+         
+         Select Fruit:<select name="Fruit_Selection">
+                           <option value="select"> select </option>
+                           <option value="Banana"> Banana </option>
+                           <option value="Fig"> Fig </option>
+                           <option value="Olive"> Olive </option>
+                           <option value="Orange"> Orange </option>
+                           <option value="Pomegranate"> Pomegranate </option>
+                           <option value="Tamur(Dates)"> Tamur(Dates) </option>
+                           <option value="Zabeeb(Raisin)"> Zabeeb(Raisin) </option>
+                        </select><br/> <!-- The value and name attribute is the coder's or webmaster's or server's side of the data collected
+                        from the web surfer. The web surfer may see the displayed info on the webpage as one thing and the data that will sent
+                        or submitted back to the server could be different -->
+         Select Fruit 2:<select name="Fruit_Selection">
+                           <option value="select"> select </option>
+                           <option value="Banana"> Banana </option>
+                           <option value="Fig"> Fig </option>
+                           <option value="Olive"> Olive </option>
+                           <option value="Orange"> Orange </option>
+                           <option value="Pomegranate"> Pomegranate </option>
+                           <option value="Tamur(Dates)" selected> Tamur(Dates) </option> <!-- note that this will be selected by default -->
+                           <option value="Zabeeb(Raisin)"> Zabeeb(Raisin) </option>
+                        </select><br/>            
+         Select Hobby:<select name="Hobby_Selection" multiple size="3"> <!-- multiple options can be selected when this "multiple" attribute
+            is used. note that safari browser displays the multiple size as a minimum of 4, nothing less than a size of 4, hmmm strange -->
+                        <optgroup label="Qur'an Related">
+                           <option value="Reciting the Qur'an"> Reciting the Qur'an </option>
+                           <option value="Studing the Qur'an with Tafseer"> Studing the Qur'an with Tafseer </option>
+                           <option value="Memorising the Qur'an with Tajweed"> Memorising the Qur'an with Tajweed </option>
+                        </optgroup>
+                        <optgroup label="Others">
+                           <option value="Reading Beneficial Articles"> Reading Beneficial Articles </option>
+                           <option value="Coding"> Coding </option>
+                           <option value="Inventing and Fixing Stuffs"> Inventing and Fixing Stuffs </option>
+                           <option value="Teaching"> Teaching </option>
+                        </optgroup>
+                        </select><br/><br/>
+      
+      37. Checkboxes and Radio Buttons: Checkboxes are used to add checkboxes to a Webpage and multiple options can be ticked .As for Radio 
+         Buttons, only one option may be selected as compared to the checkbox  where multiple options can be selected, and again unlike 
+         checkboxes, you can't <strong>unselect</strong> the option such that no option is left unselected once an option has been selected 
+         initially <br/><br/>
+         
+         What do you see when you look at the sky ? <br/>
+         <input type="checkbox" name="Cloud" value="Cloud"/>Cloud
+         <input type="checkbox" name="star" value="star"/>Star
+         <input type="checkbox" name="sun" value="sun" checked/>Sun <!-- note that this will be checked by default -->
+         <input type="checkbox" name="moon" value="moon"/>Moon
+         <input type="checkbox" name="Birds" value="Birds"/>Birds
+         <input type="checkbox" name="Aircraft" value="Aircraft"/>Aircraft <br/><br/>
+         
+         Can you read this ? <br/>
+         <input type="radio" name="Answer" value="Yes" checked/>Yes <!-- note that this button will be selected by default -->
+         <input type="radio" name="Answer" value="No"/>No <br/><br/>
+
+      38. Comment box: Text area or as I like to call it, Comment box is the area where the web surfer can input data like a Comment for 
+         example. The size of the text area can be adjusted using the "rows" and "cols attributes" which adjusts the number of characteristics
+         that can be displayed at once without scrolling. Comment or Feedback below:<br/>
+         <textarea name="Comments" rows="15" cols="60"> Type Feedback here </textarea> <br/><br/>
+
+      39. Buttons: made useful when using a scripting language like Javascript, python, php... To do this, the single "input" tag is used, 
+         then the required attribute is placed within the tag to create a brand new button or add default buttons <br/>
+         This is used when creating a brand new button by using scripting language<input type="button" value="i am a button"/><br/>
+         Used to place a button for selecting a file a surfer may want to upload <input type="file"/><br/>
+         Used to place a button for submitting the filled forms on the Webpage<input type="submit" value="submit"/><br/>
+         Used to place a button for resetting already filled forms on the Webpage, this will be suitably placed at the bottom of a Webpage
+         as it will reset every form including those that may be below it<input type="reset" value="reset"/><br/><br/>
+
+      40. Fieldset, Legend and Label: The "Fieldset" tag is an external enclosing tag under which the "legend" tag is used. The legend tag is 
+         used to create the special effect of surrounding other things which are within the "Fieldset" tag with a thin black border line and 
+         then places the text that is between it(that is the "legend" tag) within the border without the border line going through it. Then 
+         there is the "Label" tag which isn't dependent on the "Fieldset" tag and the effect it adds to the text it surrounds is that when the 
+         text it surrounds it clicked on, it activates it and the cursor start blinking in the box where you are to type the requested info 
+         and if it is in the case of a checkbox option or Radio button option, it selects the option. The Label tag by itself doesn't do 
+         anything until the attribute "for" is placed within the opening tag which is then assigned a value that is exactly the same as the 
+         value assigned to the "id" attribute that is attached the text of the form to be filled. •This could be useful in the future: when a 
+         text(s) having a Label tag and attribute of "for" assigned the same value as an "id" is tapped on, as soon as you tap on it, it takes
+         you to the form box having that exact same id value even if it is else where on the webpage and if there are multiple texts attached
+         to the same id, it takes you to the first one. <br/><br/>
+         <fieldset>
+            <legend>User Authentication</legend>
+            <label for="Name">Name:</label><input type="text" name="Name of User" id="Name"/> <br/>
+            <label for="Password">Password:</label><input type="password" name="identity authentication" id="Password"/> 
+         </fieldset>
+         <br/><br/>
+         <fieldset>
+            <legend> Checkboxes and Radio Buttons </legend>
+            <br/>What do you see when you look at the sky ? <br/>
+            <input type="checkbox" name="box_1_selected" value="Cloud" id="Clouds"/><label for="Clouds">Clouds</label>
+            <input type="checkbox" name="box_2_selected" value="star" id="Stars"/><label for="Stars">Stars</label>
+            <input type="checkbox" name="box_3_selected" value="sun" id="The Sun"/><label for="The Sun">The Sun</label>
+            <input type="checkbox" name="box_4_selected" value="moon" id="The Moon"/><label for="The Moon">The Moon</label>
+            <input type="checkbox" name="box_5_selected" value="Birds" id="Birds"/><label for="Birds">Birds</label>
+            <input type="checkbox" name="box_6_selected" value="Aircraft" id="Aircrafts"/><label for="Aircrafts">Aircrafts</label> <br/><br/>
+            Can you read this ? <br/>
+            <input type="radio" name="Answer" value="Yes" id="Yes"/><label for="Yes">Yes</label>
+            <input type="radio" name="Answer" value="No" id="No"/><label for="No">No</label>
+         </fieldset><br/><br/>
+      
+      41. Form Styling: Styling of forms using CSS3.<br/><br/>
+         <fieldset class="User_Data">
+            <legend class="head"> User Data </legend>
+            <p>
+               <label for="Username">Username:</label> 
+               <input type="text" name="User's_Name" id="Username"/>
+            </p>
+            <p>
+               <label for="User Password">User Password:</label> 
+               <input type="password" name="User's_Password" id="User Password"/>
+            </p>
+            <p>
+               <label for="Email">Email:</label> 
+               <input type="email" name="User's_Email" id="Email"/>
+            </p>
+            <p>
+               <label for="Phone no">Phone no:</label> 
+               <input type="number" name="User's_Phone_no" id="Phone no"/>
+            </p>
+            <p>
+               <label for="Country">Country:</label> 
+               <input type="text" name="User's_Country" id="Country"/>
+            </p>
+            <p>
+               <label for="Course of Study">Course of Study:</label> 
+               <input type="text" name="User's_Course of Study" id="Course of Study"/>
+            </p>
+            <p>
+               <label for="Mood">Mood:</label> 
+               <input type="text" name="User's_Mood" id="Mood"/>
+            </p>
+
+         </fieldset>
+       </form>
+
+       <h2> Dash Into Other Webpages From Here... </h2> <br/> <br/> <br/>
+
+      <span class="link1">
+         <a id="linkText" href="index.html"> Homepage </a> 
+      </span>
+
+      <span class="link2">
+         <a id="linkText" href="Webpage 2.html"> Webpage 2 </a> 
+      </span>
+
+      <span class="link3">
+         <a id="linkText" href="Webpage 3.html"> Webpage 3 </a>
+      </span>
+
+      <span class="link4">
+         <a id="linkText" href="Webpage 4.html"> Webpage 4 </a>
+      </span>
+
+      <span class="link5">
+         <a id="linkText" href="Webpage 5.html"> Webpage 5 </a>
+      </span>
+      <br/><br/><br/><br/><br/><br/>
+
+      <p style="text-align: center;"> AND HE CODED HAPPILY EVER AFTER, THE END !!! Javascript here I come, insha' llah </p>
+      <br/><br/>
+      <footer class="page_footer"><!-- Displays footer, usually Copywrite -->
+         Made With Expertise Somewhere On Earth &copy; CopyRight Cumulus.Inc
+     </footer>
+
+       
+   </body>
+</html>
