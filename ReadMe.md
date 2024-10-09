@@ -41,7 +41,7 @@ This project is complete, and no further improvements or features are planned.
 
 ## Screenshot
 
-Here is a screenshot of the project:
+Here are screenshots of the project files and folder📂 properties:
 
 ![Project Screenshot](./images/Learning%20HTML%20&%20CSS%20Folder%20Properties.png)
 ![Project Screenshot](./images/Learning%20HTML%20&%20CSS%20Folder%20files.png)
