@@ -22,6 +22,7 @@ This project was primarily focused on learning, so there are no standout feature
 
 - **HTML5**
 - **CSS3**
+- **...and a pinch of JS**
 
 No additional libraries or frameworks were used.
 
