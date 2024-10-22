@@ -50,4 +50,4 @@ Here are screenshots of the project files and folder📂 properties:
 
 ## License
 
-This project is not licensed at the moment.
+This project ordinarily shouldn't be needing a license, but if for any reason you'll be needing it, it is free to use.
